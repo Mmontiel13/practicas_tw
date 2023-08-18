@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTO PRUEBA</title>
+    <script src="./src/main.js"></script>
 </head>
 
 <body>
@@ -14,17 +15,7 @@
 
     <div id="nombre"></div>
     <div id="edad"></div>
-    <script>
-        var nombre = prompt('Nombre', ' ');
-        var edad = prompt('Edad', 0);
-
-        var div1 = document.getElementById('nombre');
-        div1.innerHTML = '<h3>Nombre: ' + nombre + '</h3>';
-
-        var div2 = document.getElementById('edad');
-        div2.innerHTML = '<h3>edad: '+edad+'</h3>';
-    </script>
-
+    <input type="button" value="clickme" onclick="getDatos();">
 </body>
 
 </html>
